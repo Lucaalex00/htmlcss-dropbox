@@ -315,6 +315,78 @@ li {
     border-bottom: 1px solid var(--light-color);
 }
 
+/*Partner*/
+
+.partner-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 100px;
+}
+
+.partner-section-container-left {
+    width: 60%;
+}
+
+.partner-section-container-left>img {
+    width: 100%;
+}
+
+.partner-section-container-right {
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.partner-section-container-right>h3 {
+    font-size: 1.5rem;
+}
+
+.partner-button {
+    width: 50%;
+    background-color: var(--lighter-color);
+    margin: 25px 0;
+}
+
+/*Dropbox Business*/
+.dropbox-business-section-container>h2 {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.main-container {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.top-bottom {
+    flex-direction: column;
+    padding-bottom: 25px;
+    width: calc(100%/3);
+
+}
+
+.db-card img {
+    width: 100%;
+}
+
+.db-top-container {
+    width: 100%;
+
+}
+
+/*Dropbox Business info*/
+.dropbox-business-info-section {
+    margin-bottom: 100px;
+}
+
+.dropbox-business-info-section>h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
 
 /*#endregion Main*/
 /*#region Footer*/
