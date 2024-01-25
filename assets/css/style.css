@@ -1,0 +1,83 @@
+/*#region Var*/
+:root {
+    --background-trial: rgba(180, 208, 231, 1);
+    --button-color: rgba(0, 97, 255, 1);
+    --dropbox-business: rgba(98, 19, 58, 1);
+    --logo-designit: rgba(162, 211, 155, 1);
+    --logo-asu: rgba(97, 8, 43, 1);
+    --logo-uf: rgba(0, 147, 206, 1);
+    --logo-topps: rgba(255, 28, 28, 1);
+    --large-logo-designit: rgba(245, 245, 245, 1);
+    --logo-wbr: rgba(213, 0, 31, 1);
+    --logo-hearst: rgba(180, 208, 231, 1);
+    --logo-lonely-planet: rgba(13, 36, 129, 1);
+    --logo-cco: rgba(255, 216, 48, 1);
+
+
+    --lighter-color: white;
+    --light-color: gray;
+    --dark-color: black;
+}
+
+/*#endregion Var*/
+
+/*#region Utilities*/
+
+body {
+    background-color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Width*/
+.col-4 {
+    width: 33.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.xl-container {
+    width: 100%;
+}
+
+.large-container {
+    width: 80%;
+}
+
+/*/Width*/
+
+/*#endregion Utilities*/
+/*#region Header*/
+/*#endregion Header*/
+/*#region Main*/
+
+/*#endregion Main*/
+/*#region Footer*/
+/*#endregion Footer*/
