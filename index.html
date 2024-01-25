@@ -18,7 +18,7 @@
     <header id="site-header">
         <div class="header-container flex xl-container m-auto">
             <div class="header-left-content flex p-10">
-                <div class="logo"><img src="./assets/img/logo-small.png" alt=""></div>
+                <div class="header-logo"><img src="./assets/img/logo-small.png" alt=""></div>
                 <a href="#">Perchè Dropbox</a>
                 <a href="#">Funzioni</a>
                 <a href="#">Piani e Prezzi</a>
@@ -72,11 +72,14 @@
                 <div class="card">
                     <div class="card-top">
                         <div class="category"><i class="fa-solid fa-user"></i>Singolo</div>
+                        <div class="line-break-card-top"></div>
                         <div class="plan-details-container">
                             <h4>Professional</h4>
-                            <div class="plan-price"> 12.00€ </div>
-                            <div class="renewal">/mese</div>
                         </div>
+
+                        <div class="plan-price"> 12.00€ </div>
+                        <div class="renewal">/mese</div>
+
                     </div>
 
                     <div class="card-mid">
@@ -107,11 +110,13 @@
                 <div class="card">
                     <div class="card-top">
                         <div class="category"><i class="fa-solid fa-users"></i>Team</div>
+                        <div class="line-break-card-top"></div>
                         <div class="plan-details-container">
                             <h4>Advanced</h4>
-                            <div class="plan-price"> 18.00€ </div>
-                            <div class="renewal">/utente/mese</div>
                         </div>
+                        <div class="plan-price"> 18.00€ </div>
+                        <div class="renewal">/utente/mese</div>
+
                     </div>
 
                     <div class="card-mid">
@@ -145,11 +150,13 @@
                 <div class="card">
                     <div class="card-top">
                         <div class="category"><i class="fa-solid fa-building"></i> Azienda</div>
+                        <div class="line-break-card-top"></div>
                         <div class="plan-details-container">
                             <h4> Enterprise</h4>
-                            <div class="plan-price"> Contattaci </div>
-
                         </div>
+                        <div class="plan-price"> Contattaci </div>
+
+
                     </div>
 
                     <div class="card-mid">
@@ -166,6 +173,7 @@
                                 </span>
                             </li>
                             <hr>
+                            <!--Ho utilizzato anche la line break di HTML invece del DIV per mostrare le varie opzioni-->
                         </ul>
                     </div>
                     <div class="card-bot">
@@ -341,6 +349,41 @@
             <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
             <a href="#">scopri di più sui nostri clienti</a>
         </section>
+
+
+        <section class="logo-section col-12 flex"><!--Logos Section-->
+            <div class="logo-container-left col-4 flex">
+                <div class="logo designit"><img src="./assets/img/designit.svg" alt="designit"></div>
+                <div class="logo asu"><img src="./assets/img/arizona_state_university.svg"
+                        alt="arizona_state_university"></div>
+                <div class="logo uf"><img src="./assets/img/university_of_florida.svg" alt="university_of_florida">
+                </div>
+                <div class="logo topps"><img src="./assets/img/topps.svg" alt="topps"></div>
+
+
+
+            </div>
+            <div class="logo-container-mid col-4 flex">
+                <div><img src="./assets/img/designit.svg" alt="Designit"></div>
+                <div class="line-break-logo-container-mid"></div>
+                <p>"i membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte
+                    soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper.
+                    Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Paper".
+                </p>
+                <div>Morten Thomsen, Global IT Lead</div>
+            </div>
+            <div class="logo-container-right col-4 flex">
+                <div class="logo wbr"><img src="./assets/img/world_bicycle_relief.svg" alt="world_bicycle_relief"></div>
+                <div class="logo hearst"><img src="./assets/img/hearst_corp.svg" alt="hearst_corp"></div>
+                <div class="logo lp"><img src="./assets/img/lonely_planet.svg" alt="lonely_planet"></div>
+                <div class="logo cco"><img src="./assets/img/clear_channel.svg" alt="clear_channel"></div>
+            </div>
+
+
+        </section>
+
+
+
     </main>
     <!-- /#site-main -->
 

@@ -131,8 +131,6 @@ li {
 }
 
 
-
-
 /*#endregion Header*/
 /*#region Main*/
 #site-main {
@@ -225,7 +223,7 @@ li {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    gap: 0.51rem;
+    gap: 0.5rem;
 }
 
 .card {
@@ -243,26 +241,37 @@ li {
     padding: 25px;
 }
 
-.category {
-    text-align: center;
-    border-bottom: 1px solid var(--light-color);
-    padding: 15px;
-    margin: 5px;
-}
-
 .card-top {
-    margin-bottom: 20px;
+    width: 250px;
 }
 
+.plan-price,
+.renewal,
 .plan-details-container {
-    margin-right: 80px;
+    padding-left: 25px;
 }
 
 .plan-details-container>h4 {
     font-size: 1.5rem;
     margin-bottom: 5px;
-
 }
+
+.category {
+    text-align: center;
+}
+
+.line-break-card-top {
+    border-bottom: 1px solid var(--light-color);
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+.plan-details-container {
+    margin-right: 80px;
+}
+
+
 
 .plan-price {
     font-weight: bold;
@@ -387,6 +396,91 @@ li {
     font-size: 3rem;
     margin-bottom: 50px;
 }
+
+/*Logos*/
+
+/*#region logos-background-color*/
+.designit {
+    background-color: var(--logo-designit);
+}
+
+.asu {
+    background-color: var(--logo-asu);
+}
+
+.uf {
+    background-color: var(--logo-uf);
+}
+
+.topps {
+    background-color: var(--logo-topps);
+}
+
+.wbr {
+    background-color: var(--logo-wbr);
+}
+
+.hearst {
+    background-color: var(--logo-hearst);
+}
+
+.lp {
+    background-color: var(--logo-lonely-planet);
+}
+
+.cco {
+    background-color: var(--logo-cco);
+}
+
+/*#endregion logos-background-color*/
+
+.logo-section {
+    background-color: var(--large-logo-designit);
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.logo-container-left,
+.logo-container-right {
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    /*Altezza fissa visionata dal terminale per rendere tutto il più proporzionale possibile*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    /*svg change color RULE*/
+    width: 50%;
+    filter: invert(99%) sepia(9%) saturate(2%) hue-rotate(210deg) brightness(114%) contrast(100%);
+}
+
+.logo-container-mid {
+    background-color: var(--large-logo-designit);
+    padding: 30px;
+    flex-direction: column;
+}
+
+.logo-container-mid div>img {
+    width: 250px;
+}
+
+.logo-container-mid>p {
+    margin-bottom: 30px;
+}
+
+.line-break-logo-container-mid {
+    width: 100px;
+    border: 1px solid gray;
+    margin: 30px 0;
+}
+
 
 /*#endregion Main*/
 /*#region Footer*/
