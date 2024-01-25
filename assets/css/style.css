@@ -90,6 +90,8 @@
     color: var(--lighter-color);
     border-radius: 3px;
     border: 0;
+    padding: 2px 20px;
+    text-align: center;
 }
 
 li {
@@ -128,10 +130,6 @@ li {
     color: var(--dark-color);
 }
 
-.start-button {
-    padding: 2px 20px;
-    text-align: center;
-}
 
 
 
@@ -184,8 +182,6 @@ li {
 
 }
 
-
-
 .icon {
     font-size: 2rem;
     margin-top: 50px;
@@ -205,7 +201,8 @@ li {
 
 .jumbo-right img[alt='Client Proposal'] {
     width: 900px;
-    left: 20%;
+    left: 10%;
+
 }
 
 /*/trial-container*/
@@ -238,9 +235,10 @@ li {
     border: 1px solid var(--light-color);
     width: 250px;
     /* #site-main è 100vw.
-    ho dato il .small-container che dà il 40%  del #site-main alla section.
+    avevo dato il .small-container che dà il 40%  del #site-main alla section.
     card-container è il 100% del 40% (40vw della section) di 100vw (#site-main)
-    perciò facendo 40vw (larghezza del card-container) diviso 3 (numero di card) - 32px (gap) vado ad avere la stessa dimensione da tutti i lati con il justify
+    perciò facendo 40vw (larghezza del card-container) diviso 3 (numero di card) - 32px (gap) vado ad avere la stessa dimensione da tutti i lati con il justify space between
+    mi sono reso conto di quanto era incasinato e ho optato per una misura fissa delle card
     */
     padding: 25px;
 }
@@ -250,7 +248,6 @@ li {
     border-bottom: 1px solid var(--light-color);
     padding: 15px;
     margin: 5px;
-    /*per bilanciare il padding di tutta la carta ho dato il negativo dello stesso valore al margine*/
 }
 
 .card-top {
@@ -294,7 +291,29 @@ li {
     color: var(--button-color);
 }
 
+/*enterprise*/
 
+.enterprise-container {
+    border: 1px solid var(--light-color);
+    margin-bottom: 100px;
+
+
+}
+
+.enterprise-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enterprise-container>p {
+    padding: 20px 10px;
+}
+
+.enterprise-container>.enterprise-logo {
+    text-align: center;
+    border-bottom: 1px solid var(--light-color);
+}
 
 
 /*#endregion Main*/
