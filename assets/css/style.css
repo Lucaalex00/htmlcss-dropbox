@@ -568,6 +568,7 @@ body {
 .footer-list ul li,
 .footer-list ul li a,
 .lang {
+    /*White Text on LIST ITEM*/
     color: var(--lighter-color);
 }
 
@@ -580,10 +581,10 @@ body {
     border-bottom: 1px solid var(--light-color);
     margin: 100px 0 50px 0;
     width: 50%;
-
 }
 
 .lang {
+    /*LINGUE*/
     font-size: 0.8rem;
     font-weight: lighter;
 }
