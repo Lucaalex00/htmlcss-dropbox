@@ -85,6 +85,7 @@
     width: 50%;
 }
 
+/*/Width*/
 .button {
     background-color: var(--button-color);
     color: var(--lighter-color);
@@ -102,7 +103,11 @@ li {
     margin-bottom: 100px;
 }
 
-/*/Width*/
+body {
+    width: 100%;
+    margin: auto;
+}
+
 
 /*#endregion Utilities*/
 /*#region Header*/
@@ -532,4 +537,55 @@ li {
 
 /*#endregion Main*/
 /*#region Footer*/
+
+.footer-bg-container {
+    background-color: var(--dark-color);
+}
+
+.footer-container {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-list {
+    flex-grow: 1;
+}
+
+.footer-list>ul {
+    list-style-type: none;
+}
+
+.footer-title-item {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 30px 0;
+}
+
+.footer-list li a {
+    text-decoration: none;
+}
+
+.footer-list ul li,
+.footer-list ul li a,
+.lang {
+    color: var(--lighter-color);
+}
+
+.footer-list ul li a:hover {
+    font-size: 1.2rem;
+    color: var(--light-color);
+}
+
+.line-break-footer {
+    border-bottom: 1px solid var(--light-color);
+    margin: 100px 0 50px 0;
+    width: 50%;
+
+}
+
+.lang {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
 /*#endregion Footer*/
