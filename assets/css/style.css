@@ -46,15 +46,15 @@
 
 /*Width*/
 .col-4 {
-    width: 33.33%;
+    width: ((100% / 12)* 4);
 }
 
 .col-6 {
-    width: 50%;
+    width: ((100% / 12)* 6);
 }
 
 .col-8 {
-    width: 66.66%;
+    width: ((100% / 12)* 8);
 }
 
 .col-12 {
@@ -221,9 +221,8 @@ li {
 .card-container {
     margin-top: 30px;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .card {
@@ -231,7 +230,6 @@ li {
     flex-direction: column;
     align-items: center;
     border: 1px solid var(--light-color);
-    width: 250px;
     /* #site-main è 100vw.
     avevo dato il .small-container che dà il 40%  del #site-main alla section.
     card-container è il 100% del 40% (40vw della section) di 100vw (#site-main)
