@@ -90,9 +90,16 @@
     background-color: var(--button-color);
     color: var(--lighter-color);
     border-radius: 3px;
-    border: 0;
     padding: 2px 20px;
     text-align: center;
+}
+
+.light-button {
+    width: 50%;
+    border: 1px solid var(--dark-color);
+    margin: 25px 0;
+    text-align: center;
+
 }
 
 li {
@@ -206,9 +213,9 @@ body {
     width: 80%;
 }
 
-.jumbo-right img[alt='Client Proposal'] {
-    width: 900px;
-    left: 10%;
+.jumbo-right .jumbo-img {
+    width: 800px;
+    left: 20%;
 
 }
 
@@ -266,10 +273,9 @@ body {
     text-align: center;
 }
 
-.line-break-card-top {
-    border-bottom: 1px solid var(--light-color);
-    margin: 20px 0;
-    width: 100%;
+.card-top>hr {
+    padding: 0 -20px;
+    margin:  10px -20px;
 }
 
 
@@ -277,24 +283,20 @@ body {
     margin-right: 80px;
 }
 
-
-
 .plan-price {
     font-weight: bold;
     height: 20px;
-
 }
 
-.plan-price-contact {
-    margin-bottom: -20px;
+.plan-price.contact{
+    margin: 30px;
 }
-
 
 .info {
     list-style: none;
 }
 
-.info>hr {
+.info>li hr {
     width: 10%;
     margin: 10px 0;
 }
@@ -358,12 +360,6 @@ body {
 
 .partner-section-container-right>h3 {
     font-size: 1.5rem;
-}
-
-.partner-button {
-    width: 50%;
-    background-color: var(--lighter-color);
-    margin: 25px 0;
 }
 
 /*Dropbox Business*/
@@ -448,8 +444,8 @@ body {
 }
 
 .logo {
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    height: 300px;
     /*Altezza fissa visionata dal terminale per rendere tutto il più proporzionale possibile*/
     display: flex;
     justify-content: center;
@@ -457,8 +453,9 @@ body {
 }
 
 .logo img {
-    /*svg change color RULE*/
     width: 50%;
+    max-height: 50%;
+    /*svg change color RULE*/
     filter: invert(99%) sepia(9%) saturate(2%) hue-rotate(210deg) brightness(114%) contrast(100%);
 }
 
@@ -466,10 +463,6 @@ body {
     background-color: var(--large-logo-designit);
     padding: 30px;
     flex-direction: column;
-}
-
-.logo-container-mid div>img {
-    width: 250px;
 }
 
 .logo-container-mid>p {
