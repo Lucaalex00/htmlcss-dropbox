@@ -19,11 +19,25 @@
         <div class="header-container flex xl-container m-auto">
             <div class="header-left-content flex p-10">
                 <div class="header-logo"><img src="./assets/img/logo-small.png" alt=""></div>
-                <a href="#">Perchè Dropbox</a>
+                <div class="why-db flex">
+                    <a href="#">Perchè Dropbox</a>
+                    <div class="hidden hidden-info">
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                        <div> Costa poco</div>
+                    </div>
+                </div>
+
                 <a href="#">Funzioni</a>
                 <a href="#">Piani e Prezzi</a>
-
             </div>
+
             <div class="header-right-content flex p-10">
                 <a href="#">Supporto</a>
                 <a href="#">Contatta ufficio vendite</a>
@@ -52,7 +66,7 @@
                         <a href="#">Annulla in qualsiasi momento</a>
                     </div>
                     <div>
-                        <i class="icon fa-solid fa-arrow-down"></i>
+                        <a class="arrow-link" href="#plans-container"><i class="icon fa-solid fa-arrow-down"></i></a>
                     </div>
                 </div>
                 <div class="right-trial-container-bottom flex jumbo-right "> <!--Jumbo RIGHT-->
@@ -64,7 +78,8 @@
             </div>
         </section>
 
-        <section class="plans-container small-container section-separator col-12 m-auto"><!--plans section-->
+        <section id="plans-container" class="plans-container small-container section-separator col-12 m-auto">
+            <!--plans section-->
             <h2>Trova il piano business che fa per te</h2>
             <span class="sub sub-monthly"><input type="radio">Fatturazione mensile</span>
             <span class="sub sub-year"><input type="radio">Fatturazione annuale</span>
@@ -423,16 +438,24 @@
                         Advanced ?</div>
                     <i class="fa-solid fa-angle-down"></i>
                 </div>
+                <div class="answer1 hidden"> Nessuna, tranne il costo.</div>
+
                 <div class="faq-row flex">
                     <div class="question">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business
                         Advanced ?</div>
                     <i class="fa-solid fa-angle-down"></i>
                 </div>
+                <div class="answer2 hidden"> Nessuna, tranne il costo.</div>
+
                 <div class="faq-row flex">
                     <div class="question">Qual'è la differenza tra Dropbox Business Standard e Dropbox Business
                         Advanced ?</div>
+
+
                     <i class="fa-solid fa-angle-down"></i>
+
                 </div>
+                <div class="answer3 hidden"> Nessuna, tranne il costo.</div>
             </div>
         </section>
     </main>
