@@ -90,6 +90,7 @@
     background-color: var(--button-color);
     color: var(--lighter-color);
     border-radius: 3px;
+    border: 0;
     padding: 2px 20px;
     text-align: center;
     text-decoration: none;
@@ -103,10 +104,6 @@
     text-align: center;
     text-decoration: none;
 
-}
-
-.card-mid .info li {
-    height: 100px;
 }
 
 .card-bot .info li {
@@ -147,7 +144,6 @@
 .header-container a[href*='#'] {
     text-decoration: none;
     color: var(--dark-color);
-
 }
 
 
@@ -288,6 +284,10 @@
 
 .plan-price {
     font-weight: bold;
+}
+
+.plan-price.contact {
+    margin: 30px;
 }
 
 .info {
