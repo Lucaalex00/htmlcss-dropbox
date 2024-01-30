@@ -1,3 +1,5 @@
+/*BONUS*/
+
 /*#region Var*/
 :root {
     --background-trial: rgba(180, 208, 231, 1);
@@ -130,7 +132,8 @@ html {
 
 .header-container a[href="#"]:hover {
     background-color: var(--dark-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    padding: 2px;
     color: var(--lighter-color);
     box-shadow: 5px 5px var(--lighter-color);
 }
@@ -200,12 +203,11 @@ img:hover {
     width: 100%;
     position: fixed;
     z-index: 1;
+    background-color: var(--lighter-color);
 }
 
 .header-container {
     padding: 10px;
-
-
 }
 
 .header-container,
@@ -245,7 +247,9 @@ img:hover {
 .trial-container-top>h1 {
     text-align: start;
     font-size: 4rem;
+    margin-top: 50px;
 }
+
 
 /*TRIAL CONTAINER BOTTOM*/
 
@@ -295,8 +299,8 @@ img:hover {
 }
 
 .jumbo-right .jumbo-img {
-    width: 800px;
-    left: 20%;
+    width: 900px;
+    left: 10%;
 
 }
 
@@ -331,7 +335,7 @@ img:hover {
     perciò facendo 40vw (larghezza del card-container) diviso 3 (numero di card) - 32px (gap) vado ad avere la stessa dimensione da tutti i lati con il justify space between
     mi sono reso conto di quanto era incasinato e ho optato per una misura fissa delle card
     */
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .card-top,
@@ -339,14 +343,23 @@ img:hover {
 .card-bot {
     width: 100%;
 
-    & .button {
-        width: 100%;
-        height: 50px;
-    }
+}
+
+.card-top,
+.category {
+    padding-bottom: 10px;
+}
+
+.card-mid {
+    margin-top: 10px;
+}
+
+.card-mid-button {
+    margin-top: 30px;
 }
 
 .card-mid .info li {
-    height: 100px;
+    height: 50px;
 }
 
 .plan-details-container .plan-details-container>h4 {
@@ -357,11 +370,6 @@ img:hover {
 .category {
     text-align: center;
 }
-
-.card-top>hr {
-    padding: 0 -20px;
-}
-
 
 .plan-details-container {
     margin-right: 80px;
@@ -375,10 +383,11 @@ img:hover {
     list-style: none;
 }
 
-.info>li hr {
+.line-break-card {
     width: 10%;
-}
+    padding: 0;
 
+}
 
 .benefit {
     font-weight: bold;
